@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
+import Navbar from "../Components/navbar/Navbar";
 
 
 export default function Home() {
@@ -13,7 +15,7 @@ export default function Home() {
             </Head>
 
             <main>
-            <h1>Portfolio HomePage</h1>
+                <Link href={"/about"}> <h1>Go to about</h1></Link>
             </main>
         </div>
     );
